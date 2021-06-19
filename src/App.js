@@ -7,11 +7,19 @@ function App() {
   return (
     <div className="app">
       {/*sidebar*/}
-      <Sidebar />
+
+      <div className="responsive">
+        <Sidebar />
+      </div>
       {/*feed*/}
-      <Feed />
+      <div className="responsiveFeed">
+        <Feed />
+      </div>
+
       {/*widgets*/}
-      <Widgets />
+      <div className="responsive2">
+        <Widgets />
+      </div>
     </div>
   );
 }

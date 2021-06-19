@@ -1,5 +1,5 @@
 .widgets{
-    width: calc(30%);
+    
     border-right: 1px solid var(--twitter-background);
 }
 .widgets__input{

@@ -10,3 +10,19 @@ body {
   margin-right: auto;
   padding: 0 10px;
 }
+@media only screen and (max-width: 800px) {
+  .responsive{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }.responsiveFeed{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .responsive2{
+    display: none;
+  }
+}
