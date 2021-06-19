@@ -1,0 +1,31 @@
+.widgets{
+    width: calc(30%);
+    border-right: 1px solid var(--twitter-background);
+}
+.widgets__input{
+  display: flex;
+  align-items: center;
+  background: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.widgets__input > input {
+  border: none;
+  background-color: var(--twitter-background);
+}
+.widgets__widgetContainer{
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: var(--twitter-background) ;
+  border-radius: 20px;
+}
+.widgets__widgetContainer > h2{
+  font-weight: 700;
+  font-size: 13px;
+}
+
